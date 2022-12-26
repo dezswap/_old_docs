@@ -1,0 +1,15 @@
+#  menu items
+[[main]]
+  name = "Docs"
+  weight = 1
+  url = "docs/"
+
+[[main]]
+  name = "Home"
+  weight = 2
+  url = "https://dezswap.io"
+
+[[main]]
+  name = "WebApp"
+  weight = 2
+  url = "https://app.dezswap.io"
