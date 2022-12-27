@@ -17,8 +17,8 @@ Dezswap is a AMM based DEX for XPLA Chain.
 ...
 {{< /tip >}}
 
-{{< button "docs/introduction/" "Read the Docs" >}}
-{{< button "https://app.dezswap.io/" "Launch App" >}}
+{{< button "docs/introduction/" "Read the docs" >}}
+{{< button "https://app.dezswap.io/" "Launch app" >}}
 {{< /column >}}
 
 {{< column >}}
