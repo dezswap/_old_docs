@@ -1,5 +1,5 @@
 ---
-title: Trading fees
+title: Trading Fees
 weight: 40
 ---
 
