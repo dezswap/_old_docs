@@ -7,13 +7,13 @@ title = "Dezswap Docs"
 
 # About **Dezswap**
 
-Dezswap is a AMM based DEX for XPLA Chain.
+Welcome to the Dezswap!
+
+This guide shows you how to get started enjoying DEX using Dezswap, including advanced configurations and features.
 
 {{< tip "warning" >}}
-...
-{{< /tip >}}
+**Disclaimer**
 
-{{< tip >}}
 ...
 {{< /tip >}}
 
