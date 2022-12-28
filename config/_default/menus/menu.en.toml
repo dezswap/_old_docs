@@ -10,6 +10,6 @@
   url = "https://dezswap.io"
 
 [[main]]
-  name = "WebApp"
-  weight = 2
+  name = "App"
+  weight = 3
   url = "https://app.dezswap.io"
