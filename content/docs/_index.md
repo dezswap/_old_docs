@@ -22,8 +22,8 @@ This guide shows you how to get started enjoying DEX using Dezswap, including ad
 
 📝 Want to study how AMM works -> Go to [Mechanism]({{< relref "/docs/introduction/mechanism" >}})
 
-📈 Want to create your own token? -> Go to [Mint your own token]({{< relref "/docs/howto/mint-your-own-token" >}})
+📈 Want to create your own token? -> Go to [Mint your own token]({{< relref "/docs/integration/mint-your-own-token" >}})
 
 🤖 Do you build a bot to integrate with Dezswap contract? -> Go to [Reference]({{< relref "/docs/reference" >}})
 
-🚀 Looking for listing your own token? -> Go to [Create your own pair]({{< relref "/docs/howto/create-your-own-pair" >}})
+🚀 Looking for listing your own token? -> Go to [Create your own pair]({{< relref "/docs/integration/create-your-own-pair" >}})
