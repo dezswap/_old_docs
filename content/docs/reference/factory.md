@@ -8,7 +8,7 @@ It uses the pre-stored pair contract binary and instantiates it so that users do
 
 ## Transaction
 
-### Create pair
+#### Create pair
 
 Instantiate a pair from uploaded WASM binary. You may follow JSON attribute by the type of your asset. (CW20: `token`, Native/IBC: `native_token`)
 
@@ -33,7 +33,7 @@ Instantiate a pair from uploaded WASM binary. You may follow JSON attribute by t
 
 ## Query
 
-### Config
+#### Config
 
 ```json
 {
@@ -41,7 +41,7 @@ Instantiate a pair from uploaded WASM binary. You may follow JSON attribute by t
 }
 ```
 
-### Pair
+#### Pair
 
 ```json
 {
@@ -62,7 +62,7 @@ Instantiate a pair from uploaded WASM binary. You may follow JSON attribute by t
 }
 ```
 
-### Pairs
+#### Pairs
 
 ```json
 {

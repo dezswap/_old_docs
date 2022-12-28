@@ -3,14 +3,12 @@ weight: 30
 title: Pair
 ---
 
-# Pair
-
 ## Transaction
 
-### Provide Liquidity
+#### Provide Liquidity
 
 Send user's asset to a **Dezswap** contract in order to provide liquidity.<br />
-**NOTE: You should [allow your allowance]({{< relref "/docs/reference/token" >}}) of the token before providing liquidity!**
+**NOTE: You should [allow your allowance]({{< relref "/docs/reference/cw20-token" >}}) of the token before providing liquidity!**
 
 The asset can be both a contract-based token and a native token. It can be distinguished by the key under `info`: `token` or `native_token`.
 
@@ -40,7 +38,7 @@ The asset can be both a contract-based token and a native token. It can be disti
 }
 ```
 
-### Swap
+#### Swap
 
 Swap between the given two tokens. It can be considered as trade.<br />
 `offer_asset` is your source asset and `to` is a destination address to receive, which is optional.<br />
@@ -91,7 +89,7 @@ Swap between the given two tokens. It can be considered as trade.<br />
 
 ## Query
 
-### Pool
+#### Pool
 
 ```json
 {
@@ -99,7 +97,7 @@ Swap between the given two tokens. It can be considered as trade.<br />
 }
 ```
 
-### Simulation
+#### Simulation
 
 ```json
 {
@@ -116,7 +114,7 @@ Swap between the given two tokens. It can be considered as trade.<br />
 }
 ```
 
-### Reverse Simulation
+#### Reverse Simulation
 
 ```json
 {

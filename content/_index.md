@@ -1,6 +1,6 @@
-+++
-title = "Dezswap Docs"
-+++
+---
+title: Dezswap Docs
+---
 
 {{< block "grid-2" >}}
 {{< column >}}

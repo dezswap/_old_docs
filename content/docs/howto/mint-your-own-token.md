@@ -22,11 +22,11 @@ There are some advantages below:
 
 ## How to Mint
 
-### 1. Using Deployed Token Factory (Recommended)
+#### 1. Using Deployed Token Factory (Recommended)
 
 The standard CW20 token is already stored in XPLA Chain.\
 The code is wrapped based on cw20 [v0.13.2](https://docs.rs/cw20/0.13.2/cw20/index.html) \
-Please check [here]({{< relref "/docs/resources/contract_addresses" >}}) for the more addresses.
+Please check [here]({{< relref "/docs/resources/contract-addresses" >}}) for the more addresses.
 
 You may instantiate your own token using the JSON as follows:
 
@@ -72,7 +72,7 @@ Then, you may find the address of your contract from:
 }
 ```
 
-### 2. Implement by Yourself
+#### 2. Implement by Yourself
 
 First, you should implement at least these messages.
 
