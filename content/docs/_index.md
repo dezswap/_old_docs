@@ -26,3 +26,41 @@ This guide shows you how to get started enjoying DEX using Dezswap, including ad
 | 🤖 Do you build a bot to integrate with the Dezswap contract? | [Reference]({{< relref "/docs/reference" >}}) |
 | 🚀 Looking for listing your own token?                        | [Create your own pair]({{< relref "/docs/integration/create-your-own-pair" >}}) |
 
+<br />
+<br />
+<br />
+
+#### Link
+It is [link](#Link) !
+
+#### Font styles
+It is normal !
+
+*It is italic !*
+
+**It is bold !**
+
+`It is code !`
+
+#### Tip
+{{< tip >}}
+It is tip !
+{{< /tip >}}
+
+#### Tip - warning
+{{< tip "warning" >}}
+It is warning !
+{{< /tip >}}
+
+#### Blockquotes
+> It is blockquotes !
+
+#### Code Block
+```bash
+if [ $1 eq "" ];
+    echo "It is syntax highlighted code block !"
+elif
+    echo "TEST !"
+fi
+```
+
