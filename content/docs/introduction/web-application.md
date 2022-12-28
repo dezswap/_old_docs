@@ -13,4 +13,11 @@ For web,
 And will be more
 {{< /tip >}}
 
+{{< tip >}}
+On mobile web, Dezswap interacts with  
+[XPLA vault for Android](https://play.google.com/store/apps/details?id=xpla.android)  
+[XPLA vault for iOS](https://apps.apple.com/app/xpla-vault/id1640593143)  
+And will be more
+{{< /tip >}}
+
 Before executing a swap in the web application, your connected wallet must have source tokens and transaction fee. Once you generate a transaction in the proper format, it will prompt you to sign the transaction by entering your password.
