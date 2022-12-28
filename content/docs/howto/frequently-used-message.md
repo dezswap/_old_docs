@@ -5,17 +5,17 @@ title: Frequently Used Message
 
 ## Transaction
 
-### Provide Liquidity / Withdraw
+#### Provide Liquidity / Withdraw
 
 As the swap ratio is stated [here]({{< relref "/docs/introduction/mechanism" >}}), the size of a pool is related to its swap ratio. The ratio will get stable if the size of the pool increases, and vice versa. Otherwise, liquidity providers need more tokens to adjust the price in a bigger pool and it means that the market loses elasticity. The providers adjust their markets by providing and withdrawing liquidity within a trade-off.
 
-#### Provide Liquidity
+###### Provide Liquidity
 
 Contribute to the pool by sending a pair of tokens. The transaction increases the pool size.
 
 Execute this message by the *Pair contract* address!
 
-If you are trying to provide cw20 token, increase your allowance first. [Execute `IncreaseAllowance`]({{< relref "/docs/reference/token#increasedecrease-allowance" >}})
+If you are trying to provide cw20 token, increase your allowance first. [Execute `IncreaseAllowance`]({{< relref "/docs/reference/cw20-token#increasedecrease-allowance" >}})
 
 ```json
 {
@@ -42,7 +42,7 @@ If you are trying to provide cw20 token, increase your allowance first. [Execute
 }
 ```
 
-#### Withdraw
+###### Withdraw
 
 Withdraw your tokens and decrease the size of the pool.
 
@@ -70,7 +70,7 @@ As a result, the contract calculates the portion of your liquidity token compare
 
 ## Query
 
-### Pool
+#### Pool
 
 The pool query message returns the amount of the tokens in the pool from the given pair contract address.
 
@@ -108,13 +108,13 @@ Response:
 }
 ```
 
-### Simulation / Reverse Simulation
+#### Simulation / Reverse Simulation
 
 Simulation works for guessing how much you will get by swapping with your token.
 
 In case of you want to know how much the target token will be given from the source token, use `simulation`. Likewise, `reverse_simulation` can let you derive the number of source token from the number of target token.
 
-#### Simulation Request
+###### Simulation Request
 
 ```json
 {
@@ -131,7 +131,7 @@ In case of you want to know how much the target token will be given from the sou
 }
 ```
 
-#### Simulation Response
+###### Simulation Response
 
 ```json
 {
@@ -143,7 +143,7 @@ In case of you want to know how much the target token will be given from the sou
 }
 ```
 
-#### Reverse Simulation Request
+###### Reverse Simulation Request
 
 ```json
 {
@@ -160,7 +160,7 @@ In case of you want to know how much the target token will be given from the sou
 }
 ```
 
-#### Reverse Simulation Response
+###### Reverse Simulation Response
 
 ```json
 {

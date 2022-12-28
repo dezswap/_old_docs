@@ -3,11 +3,9 @@ weight: 20
 title: CW20 Token
 ---
 
-# CW20 Token
-
 ## Transaction
 
-### Transfer
+#### Transfer
 
 Transfer tokens from a transaction executor to `recipient`.
 
@@ -20,7 +18,7 @@ Transfer tokens from a transaction executor to `recipient`.
 }
 ```
 
-### Burn
+#### Burn
 
 Reduce tokens from the balance of a transaction executor.
 
@@ -32,7 +30,7 @@ Reduce tokens from the balance of a transaction executor.
 }
 ```
 
-### Send
+#### Send
 
 Work same as `transfer` but it sends tokens to `contract`, not an user address.<br />
 When processing a transaction, it triggers the given message in `msg`. The given message should be executable on its recipient `contract`.<br />
@@ -48,7 +46,7 @@ When processing a transaction, it triggers the given message in `msg`. The given
 }
 ```
 
-### Mint
+#### Mint
 
 Issue `amount` of tokens and transfer them to the given `recipient`.
 
@@ -61,7 +59,7 @@ Issue `amount` of tokens and transfer them to the given `recipient`.
 }
 ```
 
-### Increase/Decrease Allowance
+#### Increase/Decrease Allowance
 
 Increases/Decreases the allowance for `spender` to handle specific `amount` of token.<br />
 After execution, the token can be transferred by executing a transaction from `spender`. Its transferability expires on the given time point.
@@ -98,7 +96,7 @@ After execution, the token can be transferred by executing a transaction from `s
 }
 ```
 
-### Transfer from/Send from
+#### Transfer from/Send from
 
 Transfers `amount` of token from `owner` to `recipient`. The allowance should be increased before execution.
 
@@ -123,7 +121,7 @@ Transfers `amount` of token from `owner` to `recipient`. The allowance should be
 }
 ```
 
-### Burn from
+#### Burn from
 
 Burn a specific `amount` of token from `owner`'s balance.
 
@@ -138,7 +136,7 @@ Burn a specific `amount` of token from `owner`'s balance.
 
 ## Query
 
-### Get Balance
+#### Get Balance
 
 Check the token `balance` of the given `address`
 
@@ -150,7 +148,7 @@ Check the token `balance` of the given `address`
 }
 ```
 
-### Token Info
+#### Token Info
 
 Check metadata of the contract.<br />
 It checks:
@@ -165,7 +163,7 @@ It checks:
 }
 ```
 
-### Minter
+#### Minter
 
 ```json
 {
@@ -173,7 +171,7 @@ It checks:
 }
 ```
 
-### Allowance
+#### Allowance
 
 Get the allowance list of the given `owner` and `spender`.
 
@@ -186,7 +184,7 @@ Get the allowance list of the given `owner` and `spender`.
 }
 ```
 
-### All Allowances
+#### All Allowances
 
 Get the list of all allowances of the token that `owner` received and not expired.
 
@@ -200,7 +198,7 @@ Get the list of all allowances of the token that `owner` received and not expire
 }
 ```
 
-### All Accounts
+#### All Accounts
 
 Get all account list of the token holder.
 
