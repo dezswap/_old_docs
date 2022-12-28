@@ -1,7 +1,7 @@
 # use the setting below to set multiple docs directories.
 # docSections = ["docs", "tutorials"]
 
-uniqueHomePage = true # change to false to add sidebar to homepage
+#uniqueHomePage = true # disabled feature
 
 #blogDir = "blog" # can be posts, blog e.t.c
 
