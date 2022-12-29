@@ -12,7 +12,7 @@ Please check [Token Register for Dezswap]({{< relref "#token-register-for-dezswa
 
 ## Instantiation by Contract Address
 
-You should use the **Dezswap** [token factory contract]({{< relref "/docs/resources/contract-addresses" >}}).
+You should use the [**Dezswap** factory contract]({{< relref "/docs/resources/contract-addresses" >}}).
 
 The JSON message format is as follows:
 
@@ -61,7 +61,7 @@ If one of or both of assets of the pair are CW20, you should execute `increase_a
 e.g:
 
 ```bash
-xplad tx wasm execute <token_address> '{"increase_allowance":{"spender":"<pair_address>","amount":"<amount_with_decimal>","expires":{"never":{}}}}' --fees 200000000000000atestfet --from <your_key_name_on_local>
+xplad tx wasm execute <token_address> '{"increase_allowance":{"spender":"<pair_address>","amount":"<amount_with_decimal>","expires":{"never":{}}}}' --fees 200000000000000000axpla --from <your_key_name_on_local>
 ```
 
 #### Provide liquidity
@@ -73,6 +73,6 @@ Make sure that:
 - In `--amount` args, no space between the amount and the denom like `<same_amount_above>atestfet`.
 
 ```bash
-xplad tx wasm execute <pair_address> '{"provide_liquidity":{"assets":[{"info":{"token":{"contract_addr":"<token_address>"}},"amount":"<amount_with_decimal>"},{"info":{"native_token":{"denom":"atestfet"}},"amount":"<amount_with_decimal>"}]}}' --gas 600000 --fees 600000000000000atestfet --from <your_key_name_on_local> --amount <same_amount_above>atestfet
+xplad tx wasm execute <pair_address> '{"provide_liquidity":{"assets":[{"info":{"token":{"contract_addr":"<token_address>"}},"amount":"<amount_with_decimal>"},{"info":{"native_token":{"denom":"axpla"}},"amount":"<amount_with_decimal>"}]}}' --fees 800000000000000000axpla --from <your_key_name_on_local> --amount <same_amount_above>axpla
 ```
 

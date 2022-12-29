@@ -8,13 +8,13 @@ weight: 40
 - Command line
 
 ```bash
-xpladd query wasm contract-state smart <contract_address> '<JSON_formed_message>'
+xplad query wasm contract-state smart <contract_address> '<JSON_formed_message>'
 ```
 
 ex)
 
 ```bash
-xpladd query wasm contract-state smart xpla1kmag3937lrl6dtsv29mlfsedzngl9egv5c3apnr468q50gu04zrqea398u '{"pairs":{}}'
+xplad query wasm contract-state smart xpla1kmag3937lrl6dtsv29mlfsedzngl9egv5c3apnr468q50gu04zrqea398u '{"pairs":{}}'
 ```
 
 - RESTFul API
@@ -23,7 +23,7 @@ xpladd query wasm contract-state smart xpla1kmag3937lrl6dtsv29mlfsedzngl9egv5c3a
 <light_clinet_address>/cosmwasm/wasm/v1/contract/<contract_address>/smart/<JSON_formed_message_with_base64>
 ```
 
-ex)
+ex) Where `eyJwYWlycyI6e319` is Base64-encoded string of `{"pairs":{}}`
 
 ```URL
 https://TODO/cosmwasm/wasm/v1/contract/xpla1.../smart/eyJwYWlycyI6e319

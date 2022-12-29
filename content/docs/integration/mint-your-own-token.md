@@ -18,6 +18,9 @@ There are some advantages below:
 * These token, pair contract codes are well audited and continuously maintained. Don't have to audit for yours additionally.
 * **Dezswap** only lists Token factory-created pairs.
 * You don't have to migrate your contract whenever there is any major upgrade of XPLA Chain. **Dezswap** will help you to migrate so that you don't have to take any action.
+
+Please check [Contract addresses]({{< relref "/docs/resources/contract-addresses" >}}) page.
+
 {{< /tip >}}
 
 ## How to Mint
@@ -63,7 +66,7 @@ With your tx hash, you may query the tx:
 xplad query tx EF2REFAWE234A2EFV....
 ```
 
-Then, you may find the address of your contract from:
+Then, you may find the address of your contract from the event logs:
 
 ```json
 {
@@ -197,7 +200,7 @@ Then, compile your contract using it.
 docker run --rm -v "$(pwd)":/code \
   --mount type=volume,source="$(basename "$(pwd)")_cache",target=/code/target \
   --mount type=volume,source=registry_cache,target=/usr/local/cargo/registry \
-  cosmwasm/rust-optimizer:0.12.6
+  cosmwasm/workspace-optimizer:0.12.8
 
 ```
 
