@@ -1,9 +1,9 @@
 ---
 weight: 10
-title: Connect wallet
+title: Connect Wallet
 ---
 
-## Connect wallet
+## Connect Wallet
 
 You may see this button on the upper-right part of the screen:  
 ![Connect to a wallet](/docs/ui-guide/connect_wallet_button.png)
@@ -13,7 +13,7 @@ Click the button and wallet selection window will appear
 
 If you are using on PC, you may choose one of **XPLA Vault Wallet** or **C2X Vault Wallet**. If you are from mobile, you may choose **WalletConnect** and connect with XPLA Vault application on your mobile.
 
-## My wallet
+## My Wallet
 
 ![my wallet](/docs/ui-guide/my_wallet.png)
 

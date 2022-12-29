@@ -3,7 +3,7 @@ weight: 20
 title: Swap
 ---
 
-## Swap main
+## Swap Main
 
 ![main](/docs/ui-guide/swap_main.png)
 
@@ -14,7 +14,7 @@ title: Swap
 1. Address copy button - Once you selected a token, you may copy the address of the token, and can compare it to the address from the disclosure application.
 1. Swap direction flip button - If you don't want to change assets but only change the swap direction, you may click this button.
 
-## Token selection
+## Token Selection
 
 ![token selection](/docs/ui-guide/token_selection.png)
 
