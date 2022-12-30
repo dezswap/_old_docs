@@ -10,7 +10,7 @@ This token contract is implemented under the CW20 standard and it fully supports
 Except for any function of your token itself contains more than an asset, we recommend minting your own token by **instantiating this binary**, rather than developing your own.
 
 {{< tip >}}
-**NOTE**
+**Note**
 
 We strongly encourage you to create by the pre-stored binary.\
 There are some advantages below:

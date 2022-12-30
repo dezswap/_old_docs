@@ -25,11 +25,20 @@ codeLineNumbers = false
   lightMode = "images/dezswap-primary-logo.svg"
   darkMode = "images/dezswap-secondary-logo.svg"
 
-[source]
-  name = "GitHub"
-  iconLight = "images/GitHubMarkLight.svg"
-  iconDark = "images/GitHubMarkDark.svg"
-  url = "https://github.com/dezswap/"
+[[source]]
+  name = "Github"
+  iconLight = "images/github-mark-black.svg"
+  url = "https://github.com/dezswap"
+
+[[source]]
+  name = "Twitter"
+  iconLight = "images/twitter-logo-black.png"
+  url = "https://twitter.com/dezswap_io"
+
+[[source]]
+  name = "Discord"
+  iconLight = "images/discord-mark-black.png"
+  url = "https://discord.gg/ZQ2ps5H64t"
 
 # optional
 # attribution. Feel free to delete this

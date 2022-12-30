@@ -45,7 +45,7 @@ To learn more about the general rules for `handle-msg`, please refer to this [li
 }
 ```
 
-`swap.offer_asset` represents your source asset. It is mandatory to acknowledge the decimal of the token setting when entering the value of `swap.offer_asset.amount` for an accurate transaction you want. For instance, the decimal of XPLA is 18, and it implies the value `10` of `swap.offer_asset.amount` expresses `10 x 10^-18` in the actual amount. That means you should multiply with the matching value, `10^(decimal)`. And the number can vary by other native or IBC tokens but it cannot be detected if it is not acknowledged by human and the person doesn't register. Please find **Dezswap** team on [#Dezswap discord](https://discord.gg/ZQ2ps5H64t) for registering the decimal information of the new native/IBC token. (Not needed for CW20 token)
+`swap.offer_asset` represents your source asset. It is mandatory to acknowledge the decimal of the token setting when entering the value of `swap.offer_asset.amount` for an accurate transaction you want. For instance, the decimal of XPLA is 18, and it implies the value `10` of `swap.offer_asset.amount` expresses `10 x 10^-18` in the actual amount. That means you should multiply with the matching value, `10^(decimal)`. And the number can vary by other native or IBC tokens but it cannot be detected if it is not acknowledged by human and the person doesn't register. Please find **Dezswap** team on [Dezswap discord](https://discord.gg/ZQ2ps5H64t) for registering the decimal information of the new native/IBC token. (Not needed for CW20 token)
 
 `swap.to` is the destination token address. You don't need to enter the amount to swap into since **Dezswap** calculates the price algorithmically.
 
