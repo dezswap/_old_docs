@@ -5,18 +5,10 @@ title: Connect Wallet
 
 ## Wallet Connection
 
-You may see this button on the upper-right part of the screen:  
+You may see the button on the upper-right part of the screen.
 
-{{< sized-image "connect-wallet-button.png" "connect wallet" "50%" >}}
-
-Click the button and wallet selection window will appear  
-
-{{< sized-image "connect-to-a-wallet.png" "connet to a wallet" "50%" >}}
-
-If you are using on PC, you may choose one of **XPLA Vault** or **C2X Vault**. If you are from mobile, you may choose **WalletConnect** and connect with XPLA Vault application on your mobile.
+Click the button, and a wallet selection window will be displayed. Select a wallet installed in your environment and allow the connection from the wallet. If you want to know more about wallet support on the XPLA Chain, visit here [XPLA Docs](https://docs.xpla.io/docs/learn/xpla-vault/)
 
 ## My Wallet
 
-{{< sized-image "my-wallet.png" "my wallet" "50%" >}}
-
-After Dezswap connectes with your wallet, "Connect wallet" button will be changed into **My wallet** button and you may see the brief information. You may copy your address, or check on the [XPLA explorer](https://explorer.xpla.io/)
+Once **Dezswap** connects with your wallet, the "Connect wallet" button will be updated to **My wallet**, providing brief information about your wallet. You can copy your address or check on the [XPLA explorer](https://explorer.xpla.io/)
