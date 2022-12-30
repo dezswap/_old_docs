@@ -16,7 +16,7 @@ This guide shows you how to get started enjoying DEX using Dezswap, including ad
 <br>
 <br>
 
-## **Where could I start**
+## **Where Could I Start**
 
 😇 If you are very new to AMM -> Go to [About]({{< relref "/docs/introduction/about" >}})
 
