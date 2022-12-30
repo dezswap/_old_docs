@@ -92,3 +92,15 @@ Select all pairs
     }
 }
 ```
+
+#### Native token decimal
+
+Request
+
+```json
+{
+    "native_token_decimals": {
+        "denom": "<string>"
+    }
+}
+```

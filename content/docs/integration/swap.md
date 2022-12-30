@@ -15,7 +15,7 @@ Therefore, **Dezswap** adopted a different pricing approach - algorithmic pricin
 
 ## Swap by Using CLI
 
-#### When offer_asset Is Native & IBC Token
+#### When `offer_asset` Is a Native or IBC Token
 
 All transactions can be executed with the below command:
 
@@ -27,7 +27,7 @@ xplad tx wasm execute <contract-address> <handle-msg> <coins>
 - `handle-msg`: The method and parameters of the execution, which will be explained following lines
 - `coins`: Transaction execution fee
 
-To learn more about the general rules for `handle-msg`, please refer to this [link]({{< relref "/docs/howto/query" >}}).
+To learn more about the general rules for `handle-msg`, please refer to this [link]({{< relref "/docs/integration/query" >}}).
 
 ```json
 {
@@ -57,9 +57,9 @@ After filling them out, you may choose to change it into an inline string (not n
 
 This is your `handle-msg`. The `handle-msg` can be used to complete the CLI command to swap tokens.
 
-#### When offer_asset Is Contract-minted Token
+#### When offer_asset Is a Contract-minted Token
 
-Swapping contract-minted token to native token is executed with the same logic as above. However, it requires a different `handle-msg` due to the token system's difference and implementation. The message looks like:
+Swapping a contract-minted token to native token is executed with the same logic as above. However, it requires a different `handle-msg` due to the token system's difference and implementation. The message looks like:
 
 ```json
 {
