@@ -33,22 +33,19 @@
 			<a class="nav-link{{if $active }} active{{end}}" href="{{ $url }}"><span{{if $active }} class="active"{{end}}>{{ .Name }}</span></a>
 		</li>
 		{{- end }}
-		{{ $repo := $sp.source }}
+		{{- range $source := $sp.source }}
 		<li class="nav-item nav_repo">
-			<a class="nav-link" href="{{ $repo.url }}" target="_blank">
-				{{ if $repo.iconLight }}
-					{{- $litPath := absURL ($repo.iconLight) }}
-					{{- $darkPath := absURL ($repo.iconDark) }}
-					<picture data-lit="{{ $litPath }}" data-dark="{{ $darkPath }}">
-						{{ with $sp.enableDarkMode }}
-							<source srcset = '{{ $darkPath }}' media="(prefers-color-scheme: dark)">
-						{{ end }}
-						<img srcset = '{{ $litPath }}' alt = '{{ $repo.name }} Repo'>
+			<a class="nav-link" href="{{ $source.url }}" target="_blank">
+				{{ if $source.iconLight }}
+					{{- $litPath := absURL ($source.iconLight) }}
+					<picture data-lit="{{ $litPath }}">
+						<img srcset = '{{ $litPath }}' alt = '{{ $source.name }}'>
 					</picture>
 				{{ else }}
-					{{ $repo.name }}
+					{{ $source.name }}
 				{{ end }}
 			</a>
 		</li>
+		{{- end }}
 	</ul>
 </nav>
