@@ -1,6 +1,6 @@
 ---
 weight: 20
-title: UI guide
+title: UI Guide
 ---
 
 This pages guides how to use UI of Dezswap.
