@@ -1,6 +1,10 @@
----
-weight: 10
----
++++
+weight = 10
+[dataset2]
+fileLink = "content/guide.csv"
+columnTitles = ["Case", "Link"]
+baseChartOn = 2
++++
 
 # **Dezswap Docs**
 
@@ -16,14 +20,12 @@ This guide shows you how to get started enjoying DEX using Dezswap, including ad
 <br>
 <br>
 
-## **Where could I start**
+## **Where to start**
 
-😇 If you are very new to AMM -> Go to [About]({{< relref "/docs/introduction/about" >}})
-
-📝 Want to study how AMM works -> Go to [Mechanism]({{< relref "/docs/introduction/mechanism" >}})
-
-📈 Want to create your own token? -> Go to [Mint your own token]({{< relref "/docs/integration/mint-your-own-token" >}})
-
-🤖 Do you build a bot to integrate with Dezswap contract? -> Go to [Reference]({{< relref "/docs/reference" >}})
-
-🚀 Looking for listing your own token? -> Go to [Create your own pair]({{< relref "/docs/integration/create-your-own-pair" >}})
+| Case                                                          | Link                                        |
+|---------------------------------------------------------------|---------------------------------------------|
+| 😇 If you are very new to AMM                                 | [About]({{< relref "/docs/introduction/about" >}}) |
+| 📝 Want to study how AMM works,                               | [Mechanism]({{< relref "/docs/introduction/mechanism" >}}) |
+| 📈 Want to create your own token?                             | [Mint your own token]({{< relref "/docs/integration/mint-your-own-token" >}}) |
+| 🤖 Do you build a bot to integrate with the Dezswap contract? | [Reference]({{< relref "/docs/reference" >}}) |
+| 🚀 Looking for listing your own token?                        | [Create your own pair]({{< relref "/docs/integration/create-your-own-pair" >}}) |
