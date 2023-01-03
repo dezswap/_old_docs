@@ -2,7 +2,7 @@
 weight: 10
 ---
 
-# **Dezswap Docs**
+# Dezswap Docs
 
 *Here comes cool guy Dez to make the most decentralized DEX for better DeFi life.*
 
