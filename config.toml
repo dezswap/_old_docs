@@ -11,3 +11,12 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [outputs]
   home = ["HTML", "RSS","JSON"]
+
+[params]
+  description = 'Technical documentation for the Dezswap DEX'
+  images = ['images/dezswap-opengraph-image.jpg']
+  title = 'Dezswap Documentation'
+
+[taxonomies]
+  series = 'series'
+
